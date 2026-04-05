@@ -1,0 +1,3 @@
+/*! For license information please see main.1ce49cd3.js.LICENSE.txt */
+(()=>{"use strict";var e={505:(e,t,n)=>{n.d(t,{v:()=>a});const r={NODE_ENV:"production",PUBLIC_URL:"/Expense-Tracker",WDS_SOCKET_HOST:void 0,WDS_SOCKET_PATH:void 0,WDS_SOCKET_PORT:void 0,FAST_REFRESH:!0}.REACT_APP_API_URL||"http://localhost:5000/api",a=async function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};const n=localStorage.getItem("token"),a={"Content-Type":"application/json",...n?{Authorization:`Bearer ${n}`}:{},...t.headers},l={...t,headers:a},o=await fetch(`${r}${e}`,l);if(!o.ok){const e=await o.json().catch(()=>({}));throw new Error(e.message||"An error occurred")}return o.json()}}};
+//# sourceMappingURL=main.1ce49cd3.js.map
