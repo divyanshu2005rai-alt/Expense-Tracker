@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: expense-tracker
+    runtime: node
+    buildCommand: yarn # or npm install
+    startCommand: yarn start # or npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0 # Specify your version
